@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/searchScreen">
+
+    <fragment
+        android:id="@+id/searchScreen"
+        android:name="com.msy.themoviemanagerpro.ui.fragment.SearchScreen"
+        android:label="fragment_search_screen"
+        tools:layout="@layout/fragment_search_screen">
+        <action
+            android:id="@+id/action_searchScreen_to_detailScreen"
+            app:destination="@id/detailScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailScreen"
+        android:name="com.msy.themoviemanagerpro.ui.fragment.DetailScreen"
+        android:label="fragment_detail_screen"
+        tools:layout="@layout/fragment_detail_screen" />
+    <fragment
+        android:id="@+id/watchListScreen"
+        android:name="com.msy.themoviemanagerpro.ui.fragment.WatchListScreen"
+        android:label="fragment_watch_list_screen"
+        tools:layout="@layout/fragment_watch_list_screen">
+        <action
+            android:id="@+id/action_watchListScreen_to_detailScreen"
+            app:destination="@id/detailScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteScreen"
+        android:name="com.msy.themoviemanagerpro.ui.fragment.FavoriteScreen"
+        android:label="fragment_favorite_screen"
+        tools:layout="@layout/fragment_favorite_screen">
+        <action
+            android:id="@+id/action_favoriteScreen_to_detailScreen"
+            app:destination="@id/detailScreen" />
+    </fragment>
+</navigation>
