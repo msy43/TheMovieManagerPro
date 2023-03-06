@@ -19,6 +19,7 @@ I used ViewModel and Dagger Hilt.<br>
 I wrote all the tests. I used Espresso, Mochito and Truth for the tests.<br>
 In addition, the API and interface language changes according to the device language (Turkish and English).<br>
 
+
 Hope it helps.<br>
 
 Used Technologies:<br>
@@ -40,6 +41,11 @@ Truth<br>
 <div align="start">
 <img src="https://user-images.githubusercontent.com/23220643/223126913-b0637314-c563-469a-a92c-01b2960c4e60.jpg" width=50% height=50%>
 </div>
+
+Video:<br>
+
+
+https://user-images.githubusercontent.com/23220643/223129331-df12dc24-0437-4673-91bc-83b42928b972.mp4
 
 
 
