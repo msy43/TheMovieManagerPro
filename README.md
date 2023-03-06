@@ -17,7 +17,8 @@ For Android using the most popular libraries.<br>
 I created the design with the understanding of Material Design.<br>
 I used ViewModel and Dagger Hilt.<br>
 I wrote all the tests. I used Espresso, Mochito and Truth for the tests.<br>
-In addition, the API and interface language changes according to the device language (Turkish and English).<br>
+In addition, the API and interface language changes according to the device language (Turkish and English).<br><br>
+You can log in with a valid format (*@*.com) mail and an 8-character (1 uppercase letter, 1 digit, 1 special character required) password.<br>
 
 
 Hope it helps.<br>
